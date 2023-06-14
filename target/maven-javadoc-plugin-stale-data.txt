@@ -1,0 +1,45 @@
+@options
+@packages
+--class-path
+'C:/Users/Administrateur/eclipse-workspace/usine/target/classes;C:/Users/Administrateur/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar;C:/Users/Administrateur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Administrateur/eclipse-workspace/usine/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Administrateur/eclipse-workspace/usine/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'usine 1.0 API'
+-use
+-version
+-windowtitle
+'usine 1.0 API'
+usine
+C:\Users\Administrateur\eclipse-workspace\usine\src\main\java = 1686645805336
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\allclasses-index.html = 1686666729488
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\allpackages-index.html = 1686666729490
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\copy.svg = 1686666729517
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\element-list = 1686666729455
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\help-doc.html = 1686666729512
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\index-all.html = 1686666729504
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\index.html = 1686666729508
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\jquery-ui.overrides.css = 1686666729541
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\member-search-index.js = 1686666729494
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\module-search-index.js = 1686666729492
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\overview-tree.html = 1686666729479
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\package-search-index.js = 1686666729493
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\script.js = 1686666729516
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\search.js = 1686666729519
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\stylesheet.css = 1686666729514
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\tag-search-index.js = 1686666729495
+C:\Users\Administrateur\eclipse-workspace\usine\target\site\apidocs\type-search-index.js = 1686666729493
