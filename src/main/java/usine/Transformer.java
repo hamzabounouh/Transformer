@@ -93,8 +93,7 @@ public class Transformer {
         String message = "This is just a message to {name} who lives at {address} and works at {company}, you can call on {phone}";
 
         Transformer transformer = new Transformer();
-        // Transformer georgeTransformer = new Transformer("name", "address", "phone",
-        // "company");
+        // Transformer georgeTransformer = new Transformer("name", "address", "phone", "company");
 
         transformer.addToken("name", "George");
         transformer.addToken("address", "78, rue Will Smith");
@@ -103,8 +102,7 @@ public class Transformer {
         logger.info(transformer.toString());
         
         logger.info(transformer.transform1(message));
-        //System.out.println(transformer.toString());
-        //System.out.println(transformer.transform1(message));
+       
     }
 
 	  
