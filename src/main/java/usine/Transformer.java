@@ -4,9 +4,14 @@ import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
 public class Transformer {
 	
-	HashMap <String,String> tokens= new HashMap <String, String>();  
+	private static Logger Logger = LoggerFactory.getLogger(Transformer.class);
+	
+	private HashMap <String,String> tokens= new HashMap <String, String>();  
 /**
  * transforms a text by repacing a set of tokens by pre-dfined values.
  * 
@@ -84,6 +89,7 @@ public class Transformer {
 	}
 	
 	public static void main(String[] args) {
+		
         String message = "This is just a message to {name} who lives at {address} and works at {company}, you can call on {phone}";
 
         Transformer transformer = new Transformer();
@@ -94,8 +100,11 @@ public class Transformer {
         transformer.addToken("address", "78, rue Will Smith");
         transformer.addToken("phone", "03 54 87 69 88");
         transformer.addToken("company", "Amazon");
-        System.out.println(transformer.toString());
-        System.out.println(transformer.transform1(message));
+        Logger.info(transformer.toString());
+        
+        Logger.info(transformer.transform1(message));
+        //System.out.println(transformer.toString());
+        //System.out.println(transformer.transform1(message));
     }
 
 	  
