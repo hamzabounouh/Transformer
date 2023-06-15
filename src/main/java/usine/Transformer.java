@@ -9,9 +9,9 @@ import org.slf4j.Logger;
 
 public class Transformer {
 	
-	private static Logger Logger = LoggerFactory.getLogger(Transformer.class);
+	private static Logger logger = LoggerFactory.getLogger(Transformer.class);
 	
-	private HashMap <String,String> tokens= new HashMap <String, String>();  
+	private HashMap <String,String> tokens= new HashMap <>();  
 /**
  * transforms a text by repacing a set of tokens by pre-dfined values.
  * 
@@ -100,9 +100,9 @@ public class Transformer {
         transformer.addToken("address", "78, rue Will Smith");
         transformer.addToken("phone", "03 54 87 69 88");
         transformer.addToken("company", "Amazon");
-        Logger.info(transformer.toString());
+        logger.info(transformer.toString());
         
-        Logger.info(transformer.transform1(message));
+        logger.info(transformer.transform1(message));
         //System.out.println(transformer.toString());
         //System.out.println(transformer.transform1(message));
     }
